@@ -1,8 +1,7 @@
 GitLab Runner [![Build Status](https://api.travis-ci.org/riemers/ansible-gitlab-runner.svg?branch=master)](https://travis-ci.org/riemers/ansible-gitlab-runner) [![Ansible Role](https://img.shields.io/badge/role-riemers.gitlab--runner-blue.svg?maxAge=2592000)](https://galaxy.ansible.com/riemers/gitlab-runner/)
 =============
 
-This role will install the [official GitLab Runner](https://gitlab.com/gitlab-org/gitlab-runner)
-(fork from haroldb) with updates. Needed something simple and working, this did the trick for me. Open for changes though.
+This role will install the [official GitLab Runner](https://gitlab.com/gitlab-org/gitlab-runner) with updates. This is a fork of [riemers.gitlab-runner](https://github.com/riemers/ansible-gitlab-runner) to add support for configuring Docker services.
 
 Requirements
 ------------

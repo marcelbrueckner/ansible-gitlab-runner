@@ -96,6 +96,17 @@ gitlab_runner_runners:
     #
     # Custom environment variables injected to build environment
     env_vars: []
+    #
+    # Defines additional services. The default is to not run additional services.
+    # docker_services:
+    #   - name: "registry.example.com/svc1"
+    #     alias: "svc1"
+    #     entrypoint: ["entrypoint-script.sh"]
+    #     command: ["executable","param1","param2"]
+    #   - name: docker:20.10.12-dind
+    #     command: ["--insecure-registry=10.0.0.0/24"]
+    #   - name: registry:2
+    #
     # Sets the clone_url. The default is not set.
     # clone_url:
     #
